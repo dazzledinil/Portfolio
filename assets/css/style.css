@@ -474,7 +474,7 @@ section {
 } */
 .skills .skill-item{
  font-size: 20px;
- background-color: rgb(196, 229, 248);
+ background-color:#eef7ff;
  border: 1px solid white;
  text-transform: capitalize;
  padding: 5px 30px ;
@@ -484,8 +484,11 @@ section {
 
 }
 @media (max-width: 992px){
-  .skill-item{
-    padding-left:0 ;
+  
+  .skills .skill-item{
+    padding-left:160px ;
+    font-size: 17px;
+    
   }
 }
 
@@ -1083,7 +1086,7 @@ section {
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
-.portfolio-details {
+/* .portfolio-details {
   padding: 40px 0;
 }
 
@@ -1140,7 +1143,7 @@ section {
   .portfolio-details .portfolio-info {
     padding-top: 20px;
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Footer
