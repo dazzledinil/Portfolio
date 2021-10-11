@@ -257,6 +257,13 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 160px;
   }
 }
+@media (min-width: 992px) {
+  #hero {
+    padding-left: 160px;
+    background-size: cover;
+  }
+}
+
 
 #hero:before {
   content: "";
@@ -437,7 +444,7 @@ section {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
-/* .skills .progress {
+ .skills .progress {
   height: 50px;
   display: block;
   background: none;
@@ -467,15 +474,11 @@ section {
   height: 10px;
   transition: .9s;
   background-color: #0563bb;
-} */
+} 
 
-/* .skills .skills-content{
-   
-} */
-.skills{
-  margin-left: 60px;
-}
-.skills .skill-item{
+
+
+/* .skills .skill-item{
  font-size: 20px;
  background-color:#eef7ff;
  border: 1px solid white;
@@ -486,7 +489,7 @@ section {
  width: 75%;  
  margin: 10px;
 
-}
+} */
 
 
 @media (max-width: 992px){
